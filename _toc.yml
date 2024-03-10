@@ -1,0 +1,18 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: "Overview"
+  chapters:
+  - file: first_choice
+  - file: glossary
+  - file: other_resources
+- caption: "Decision Tree"
+  chapters: 
+  - glob: key_pages/*
+- caption: "BMPs"
+  chapters: 
+  - glob: bmp_pages/*
+  
